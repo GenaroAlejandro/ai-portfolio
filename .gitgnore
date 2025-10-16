@@ -1,0 +1,51 @@
+##############################
+# Editor/OS junk (ignore)
+##############################
+
+.vscode/                 # VS Code workspace settings folder (per-user machine-specific)
+*.code-workspace         # VS Code multi-root workspace files
+.DS_Store                # macOS Finder metadata files (harmless, noisy in Git)
+Thumbs.db                # Windows Explorer thumbnail cache
+
+##############################
+# Python build/test caches
+##############################
+
+__pycache__/             # Compiled Python bytecode caches (auto-generated)
+*.py[cod]                # Compiled Python files (.pyc, .pyo, .pyd)
+*.egg-info/              # Package metadata produced by setuptools
+.venv/                   # Local virtual environment folders (we use Conda instead)
+.conda/                  # Local Conda virtual env folder (if created in project root)
+.env                     # Env var files (may contain secrets/local settings)
+.pytest_cache/           # pytest cache directory
+.mypy_cache/             # mypy type-checker cache
+
+##############################
+# Jupyter artifacts
+##############################
+
+.ipynb_checkpoints/      # Auto-saved notebook checkpoints (noisy in Git)
+**/.ipynb_checkpoints/   # Same, but for any nested notebook folder
+
+##############################
+# Data folders (do not commit raw data)
+##############################
+
+data/                    # Top-level data directory (all contents ignored)
+**/data/                 # Any nested data directory (e.g., per-assignment data folders)
+
+##############################
+# Build / distribution / temp
+##############################
+
+build/                   # Build outputs
+dist/                    # Distribution artifacts
+tmp/                     # Temporary files
+temp/                    # Another common temp folder name
+
+##############################
+# Conda caches (keep repo clean)
+##############################
+
+conda-meta/              # Conda package metadata cache
+pkgs/                    # Conda package download cache

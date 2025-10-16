@@ -1,0 +1,22 @@
+name: titanic_eda
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupytext
+  - ydata-profiling
+  - ipykernel
+  - scikit-learn
+  - nbconvert
+  - ruff
+  - black
+  - requests
+  - pip
+  - pip:
+      - nbqa
+      - notebook
