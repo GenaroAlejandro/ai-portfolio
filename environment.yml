@@ -16,7 +16,9 @@ dependencies:
   - ruff
   - black
   - requests
+  - xgboost
   - pip
+  - kaggle
   - pip:
       - nbqa
       - notebook
