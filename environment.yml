@@ -1,4 +1,4 @@
-name: titanic_eda
+name: ai-portfolio
 channels:
   - conda-forge
 dependencies:
@@ -17,10 +17,11 @@ dependencies:
   - black
   - requests
   - xgboost
-  - pip
   - kaggle
   - kagglehub
   - plotly
+  - pip
   - pip:
       - nbqa
       - notebook
+      - tensorflow==2.17.0
