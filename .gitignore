@@ -49,3 +49,10 @@ temp/                    # Another common temp folder name
 
 conda-meta/              # Conda package metadata cache
 pkgs/                    # Conda package download cache
+
+##############################
+# Model artifacts (large binaries)
+##############################
+*.h5
+models/**
+!models/README.md
