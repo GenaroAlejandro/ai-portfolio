@@ -56,3 +56,29 @@ pkgs/                    # Conda package download cache
 *.h5
 models/**
 !models/README.md
+
+# TensorFlow checkpoints
+assignments/creative_ai_day10/flowers_gan_ckpts/
+*.ckpt*
+*.data-00000-of-00001
+*.index
+checkpoint
+
+
+# --- Data folders (local datasets, raw assets) ---
+assignments/**/data/
+datasets/
+data/
+*.csv
+*.zip
+
+# --- Generated images or training outputs ---
+assignments/**/images/
+assignments/**/results/
+assignments/**/samples/
+assignments/**/previews/
+assignments/**/plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
