@@ -26,4 +26,11 @@ dependencies:
       - notebook
       - tensorflow==2.17.0
       - tensorflow-datasets>=4.9.4
+      - torch
+      - transformers
+      - tf-keras 
+      - timm 
+      - accelerate
+      - safetensors
+      - diffusers
 
