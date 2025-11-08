@@ -82,3 +82,11 @@ assignments/**/plots/
 *.jpg
 *.jpeg
 *.gif
+
+
+##############################
+# Keras files
+##############################
+*.Keras
+checkpoints/**
+
