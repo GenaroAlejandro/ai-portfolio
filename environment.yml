@@ -17,9 +17,11 @@ dependencies:
   - black
   - requests
   - xgboost
+  - lightgbm
   - kaggle
   - kagglehub
   - plotly
+  - pillow
   - pip
   - pip:
       - nbqa
@@ -33,4 +35,6 @@ dependencies:
       - accelerate
       - safetensors
       - diffusers
+      - opencv-python
+      - ultralytics==8.3.60
 
