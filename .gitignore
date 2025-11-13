@@ -90,3 +90,8 @@ assignments/**/plots/
 *.Keras
 checkpoints/**
 
+
+##############################
+# trained models files
+##############################
+*.joblib
