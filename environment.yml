@@ -22,6 +22,7 @@ dependencies:
   - kagglehub
   - plotly
   - pillow
+  - sqlite    
   - pip
   - pip:
       - nbqa
@@ -31,10 +32,12 @@ dependencies:
       - torch
       - transformers
       - tf-keras 
-      - timm 
+      - timm
       - accelerate
       - safetensors
       - diffusers
       - opencv-python
       - ultralytics==8.3.60
+      - sqlparse
+      - gradio
 
